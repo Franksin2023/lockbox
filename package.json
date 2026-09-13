@@ -1,0 +1,24 @@
+{
+  "name": "lockbox",
+  "version": "0.1.0",
+  "description": "Node.js CLI that runs isolated agents, locks their answers with commitments, and reveals them simultaneously",
+  "main": "src/index.js",
+  "bin": {
+    "lockbox": "./bin/lockbox.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/lockbox.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "agents",
+    "commitment-scheme",
+    "commit-reveal",
+    "isolation",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT"
+}
